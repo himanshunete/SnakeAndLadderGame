@@ -17,10 +17,6 @@ public class  SnakeLadderGameUC4{
       for (int numOfPlay=1 ; numOfPlay <= NUM_OF_PLAY ; numOfPlay++) {
          int diceNumber = (int)Math.floor(Math.random() * 10)%6 + 1;
          int option = (int)Math.floor(Math.random() * 10)%3 ;
-         if ( position == WIN_POSITION ){
-            System.out.println( " The Player wins the Snake ladder game " ) ;
-            System.exit(0);
-           } 
          if ( option == NoPlay ) {
             System.out.println( " The Player is at the same position " + position ) ;
          }
@@ -36,7 +32,10 @@ public class  SnakeLadderGameUC4{
                }
             System.out.println( "Player moves back to position:" + position ) ;
          }
-
+         if ( position == WIN_POSITION ){
+            System.out.println( " The Player wins the Snake ladder game " ) ;
+            System.exit(0);
+         }
       } 
    }
 }
