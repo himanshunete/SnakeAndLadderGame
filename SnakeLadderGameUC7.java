@@ -20,6 +20,7 @@ public class SnakeLadderGameUC7{
       //Computation
       for (int numOfPlay=0 ; numOfPlay < NUM_OF_PLAY ; numOfPlay++) {
          for ( numberOfPlayers=0; numberOfPlayers<=1; numberOfPlayers++ ){
+            //Player 1 is playing
             if ( numberOfPlayers == 0 ){
                position[0] = 0;
                map.put(numOfPlay,position[numOfPlay]);
@@ -93,6 +94,7 @@ public class SnakeLadderGameUC7{
                   System.exit(0);
                } 
             }
+            //Player 2 is playing
             else if ( numberOfPlayers == 1 ){
                position[0] = 0;
                map.put(numOfPlay,position[numOfPlay]);
