@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-public class  SnakeLadderGameUC6{
+public class  SnakeLadderGameSinglePlayer{
    public static void main(String[] args){
       HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
       //Variables
