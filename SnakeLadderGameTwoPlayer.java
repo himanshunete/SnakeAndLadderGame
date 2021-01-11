@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class SnakeLadderGameUC7{
+public class SnakeLadderGameTwoPlayer{
    public static void main(String[] args){
       HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
       //Variables
